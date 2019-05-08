@@ -2,7 +2,6 @@
 
 [![npm](https://badgen.net/npm/v/@vanillawc/wc-bullet-chain)](https://www.npmjs.com/package/@vanillawc/wc-bullet-chain)
 [![downloads](https://badgen.net/npm/dt/@vanillawc/wc-bullet-chain)](https://www.npmjs.com/package/@vanillawc/wc-bullet-chain)
-[![CircleCI](https://circleci.com/gh/vanillawc/wc-bullet-chain.svg?style=shield)](https://circleci.com/gh/vanillawc/wc-bullet-chain)
 [![Known Vulnerabilities](https://snyk.io/test/npm/@vanillawc/wc-bullet-chain/badge.svg)](https://snyk.io/test/npm/@vanillawc/wc-bullet-chain)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vanillawc/wc-bullet-chain/master/LICENSE)
 
