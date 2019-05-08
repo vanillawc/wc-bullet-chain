@@ -11,5 +11,8 @@
   ],
   "repository": "https://github.com/vanillawc/wc-bullet-chain",
   "main": "src/wc-bullet-chain.js",
-  "scripts": { }
+  "scripts": {
+    "start": "npx live-server --open=demo",
+    "postversion": "git push --follow-tags"
+  }
 }
