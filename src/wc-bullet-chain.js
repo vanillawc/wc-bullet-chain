@@ -1,3 +1,4 @@
+/* eslint no-undef: 0 */
 const template = document.createElement('template');
 template.innerHTML = `
 <style>
@@ -61,18 +62,17 @@ template.innerHTML = `
 `;
 
 export class WCBulletChain extends HTMLElement {
-
-  constructor() {
+  constructor () {
     super();
-    this.attachShadow({mode: 'open'});
-    this.shadowRoot.appendChild(document.importNode(template.content, true));  }
+    this.attachShadow({ mode: 'open' });
+    this.shadowRoot.appendChild(document.importNode(template.content, true));
+  }
 
-  async connectedCallback() {
+  async connectedCallback () {
     const ul = this.shadowRoot.querySelector('ul');
     ul.innerHTML = this.innerHTML;
     this.innerHTML = '';
   }
-
 }
 
 customElements.define('wc-bullet-chain', WCBulletChain);
