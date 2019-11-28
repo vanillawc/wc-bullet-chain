@@ -33,3 +33,7 @@ The package can be found in `node_modules/@vanillawc/wc-bullet-chain`.
   <li>four</li>
 </wc-bullet-chain>
 ```
+
+***Demo: [WC-Bullet-Chain - Demo][]***
+
+[WC-Bullet-Chain - Demo]: https://vanillawc.github.io/wc-bullet-chain/demo/index.html
