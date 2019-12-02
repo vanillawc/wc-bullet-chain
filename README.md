@@ -17,7 +17,7 @@ A Vanilla Web Component for creating BBC-style chained unordered lists.
 npm i @vanillawc/wc-bullet-chain
 ```
 
-The package can be found in `node_modules/@vanillawc/wc-bullet-chain`.
+Then import the `index.js` file at the root of the package.
 
 -----
 
