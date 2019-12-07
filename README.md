@@ -3,6 +3,7 @@
 [![downloads](https://badgen.net/npm/dt/@vanillawc/wc-bullet-chain)](https://www.npmjs.com/package/@vanillawc/wc-bullet-chain)
 [![Known Vulnerabilities](https://snyk.io/test/npm/@vanillawc/wc-bullet-chain/badge.svg)](https://snyk.io/test/npm/@vanillawc/wc-bullet-chain)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vanillawc/wc-bullet-chain/master/LICENSE)
+[![Published on WebComponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@vanillawc/wc-bullet-chain)
 [![Actions Status](https://github.com/vanillawc/wc-bullet-chain/workflows/Release/badge.svg)](https://github.com/vanillawc/wc-bullet-chain/actions)
 
 A Vanilla Web Component for creating BBC-style chained unordered lists.
