@@ -3,7 +3,7 @@ export class WCBulletChain extends HTMLElement {
   constructor () {
     super();
     const template = document.createElement('template');
-    template.innerHTML = WCBulletChain.default();
+    template.innerHTML = WCBulletChain.template();
     this.attachShadow({ mode: 'open' });
     this.shadowRoot.appendChild(document.importNode(template.content, true));
   }
@@ -14,7 +14,7 @@ export class WCBulletChain extends HTMLElement {
     this.innerHTML = '';
   }
 
-  static default () {
+  static template () {
     return `
       <style>
       /* No normal bullets please */
