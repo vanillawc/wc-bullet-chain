@@ -35,6 +35,8 @@ Then import the `index.js` file at the root of the package.
 </wc-bullet-chain>
 ```
 
-***Demo: [WC-Bullet-Chain - Demo][]***
+-----
 
-[WC-Bullet-Chain - Demo]: https://vanillawc.github.io/wc-bullet-chain/demo/index.html
+## Demo
+
+### [WC-Bullet-Chain-Demo - WebComponents.dev](https://webcomponents.dev/edit/xV1ouLKugHReJTHkdlG7?sv=1&pm=1)
