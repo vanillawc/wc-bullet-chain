@@ -2,7 +2,7 @@
   "name": "@vanillawc/wc-bullet-chain",
   "version": "1.0.12",
   "license": "MIT",
-  "author": "Evan Plaice <evanplaice@gmail.com> (http://evanplaice.com/)",
+  "author": "Evan Plaice <evanplaice@gmail.com> (https://evanplaice.com/)",
   "description": "Fancy chained bullet points as a vanilla web component",
   "keywords": [
     "web-components",
