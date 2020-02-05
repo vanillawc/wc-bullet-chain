@@ -10,7 +10,7 @@
     "list"
   ],
   "repository": "https://github.com/vanillawc/wc-bullet-chain",
-  "main": "src/wc-bullet-chain.js",
+  "main": "index.js",
   "scripts": {
     "start": "npx live-server --no-browser --port=5500 --open=dev",
     "lint": "semistandard",
