@@ -74,7 +74,7 @@ class WCBulletChain extends HTMLElement {
     </style>
     <ul>
     </ul>
-    `;
+    `
   }
 }
 
