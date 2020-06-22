@@ -1,17 +1,17 @@
 /* eslint no-undef: 0 */
 export class WCBulletChain extends HTMLElement {
   constructor () {
-    super();
-    const template = document.createElement('template');
-    template.innerHTML = WCBulletChain.template();
-    this.attachShadow({ mode: 'open' });
-    this.shadowRoot.appendChild(document.importNode(template.content, true));
+    super()
+    const template = document.createElement('template')
+    template.innerHTML = WCBulletChain.template()
+    this.attachShadow({ mode: 'open' })
+    this.shadowRoot.appendChild(document.importNode(template.content, true))
   }
 
   async connectedCallback () {
-    const ul = this.shadowRoot.querySelector('ul');
-    ul.innerHTML = this.innerHTML;
-    this.innerHTML = '';
+    const ul = this.shadowRoot.querySelector('ul')
+    ul.innerHTML = this.innerHTML
+    this.innerHTML = ''
   }
 
   static template () {
@@ -74,8 +74,8 @@ export class WCBulletChain extends HTMLElement {
     </style>
     <ul>
     </ul>
-    `;
+    `
   }
 }
 
-customElements.define('wc-bullet-chain', WCBulletChain);
+customElements.define('wc-bullet-chain', WCBulletChain)
