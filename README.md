@@ -1,4 +1,4 @@
-<h1 align="center">&lt;wc-bullet-chain&gt;: A BBC-style chained unordered list</h1>
+<h1 align="center">&lt;wc-bullet-chain&gt; A BBC-style chained unordered list</h1>
 
 <div align="center">
   <a href="https://github.com/vanillawc/wc-bullet-chain/releases"><img src="https://badgen.net/github/tag/vanillawc/wc-bullet-chain" alt="GitHub Releases"></a>
