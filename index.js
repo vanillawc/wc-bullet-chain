@@ -1,20 +1,18 @@
-/* eslint no-undef: 0 */
+// src/wc-bullet-chain.js
 class WCBulletChain extends HTMLElement {
-  constructor () {
+  constructor() {
     super();
-    const template = document.createElement('template');
+    const template = document.createElement("template");
     template.innerHTML = WCBulletChain.template();
-    this.attachShadow({ mode: 'open' });
+    this.attachShadow({mode: "open"});
     this.shadowRoot.appendChild(document.importNode(template.content, true));
   }
-
-  async connectedCallback () {
-    const ul = this.shadowRoot.querySelector('ul');
+  async connectedCallback() {
+    const ul = this.shadowRoot.querySelector("ul");
     ul.innerHTML = this.innerHTML;
-    this.innerHTML = '';
+    this.innerHTML = "";
   }
-
-  static template () {
+  static template() {
     return `
       <style>
       /* No normal bullets please */
@@ -74,10 +72,10 @@ class WCBulletChain extends HTMLElement {
     </style>
     <ul>
     </ul>
-    `
+    `;
   }
 }
-
-customElements.define('wc-bullet-chain', WCBulletChain);
-
-export { WCBulletChain };
+customElements.define("wc-bullet-chain", WCBulletChain);
+export {
+  WCBulletChain
+};
