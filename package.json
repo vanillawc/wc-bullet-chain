@@ -1,6 +1,6 @@
 {
   "name": "@vanillawc/wc-bullet-chain",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "license": "MIT",
   "author": "Evan Plaice <evanplaice@gmail.com> (https://evanplaice.com/)",
   "description": "Fancy chained bullet points as a vanilla web component",
